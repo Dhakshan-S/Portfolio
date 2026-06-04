@@ -48,7 +48,7 @@ export default function Hero() {
         <div className="hero-content">
           <div className="greeting-badge">
             <span className="pulse-dot"></span>
-            Available for freelance & full-time roles
+            I Am Available For Full-Time Roles
           </div>
           <h1 className="hero-title">
             Hi, I'm <span className="highlight">Dhakshan</span>

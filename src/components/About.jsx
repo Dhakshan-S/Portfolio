@@ -4,7 +4,7 @@ export default function About() {
   const [activeTab, setActiveTab] = useState('skills');
 
   const stats = [
-    { number: '3+', label: 'Years Experience' },
+    { number: '1+', label: 'Years Experience' },
     { number: '500+', label: 'Test Cases Run' },
     { number: '98%', label: 'Bug Detection Rate' },
   ];
@@ -22,10 +22,10 @@ export default function About() {
           <div className="about-info">
             <h3>Who I Am</h3>
             <p className="about-text">
-              I am a Quality Analyst and Business Analyst with a passion for software quality assurance, automated test frameworks, and requirement modeling. I specialize in aligning business demands with software verification strategies, mapping test coverage, and establishing continuous integration testing loops.
+              I am a Quality Analyst and Software Tester with 1 year of experience ensuring software quality across web and mobile applications. I specialize in both functionality and UI testing, identifying bugs from positive and negative test scenarios while keeping the customer's perspective in mind.
             </p>
             <p className="about-text">
-              My expertise lies in analyzing business requirements, mapping user journeys, designing comprehensive test documentation, and implementing automation engines to ensure secure, bug-free, and accessible deployments.
+              In addition to my testing expertise, I have strong experience in client coordination. I handle projects end-to-end, interact directly with clients to demonstrate features, gather feedback, and coordinate necessary corrections until the project goes live.
             </p>
 
             {/* Stats Grid */}
@@ -61,37 +61,56 @@ export default function About() {
             {activeTab === 'skills' && (
               <div className="tab-content active">
                 <div className="skills-category">
-                  <h4>Quality Assurance & Testing</h4>
+                  <h4>Manual Testing</h4>
                   <div className="skills-tags">
-                    <span className="skill-tag"><i className="fa-solid fa-square-check"></i> Playwright / Cypress</span>
-                    <span className="skill-tag"><i className="fa-solid fa-gears"></i> Postman / API Testing</span>
-                    <span className="skill-tag"><i className="fa-solid fa-bug"></i> Regression / Integration</span>
-                    <span className="skill-tag"><i className="fa-solid fa-list-check"></i> Test Case Documentation</span>
-                    <span className="skill-tag"><i className="fa-solid fa-vial"></i> Selenium Webdriver</span>
-                    <span className="skill-tag"><i className="fa-solid fa-clipboard-list"></i> UAT / Manual Testing</span>
-                  </div>
-                </div>
-                
-                <div className="skills-category">
-                  <h4>Business Analysis & Frameworks</h4>
-                  <div className="skills-tags">
-                    <span className="skill-tag"><i className="fa-solid fa-sitemap"></i> BPMN / Process Mapping</span>
-                    <span className="skill-tag"><i className="fa-solid fa-comments"></i> Requirements Gathering</span>
-                    <span className="skill-tag"><i className="fa-solid fa-rectangle-list"></i> User Stories / Jira</span>
-                    <span className="skill-tag"><i className="fa-solid fa-diagram-project"></i> UML Flowcharts</span>
-                    <span className="skill-tag"><i className="fa-solid fa-bolt"></i> Agile / Scrum / Kanban</span>
-                    <span className="skill-tag"><i className="fa-solid fa-book"></i> Confluence / Visio</span>
+                    <span className="skill-tag"><i className="fa-solid fa-arrows-spin"></i> SDLC & STLC</span>
+                    <span className="skill-tag"><i className="fa-solid fa-puzzle-piece"></i> Functional, Integration & System Testing</span>
+                    <span className="skill-tag"><i className="fa-solid fa-bug-slash"></i> Regression, Smoke & Adhoc Testing</span>
+                    <span className="skill-tag"><i className="fa-solid fa-bug"></i> Bug Life Cycle</span>
+                    <span className="skill-tag"><i className="fa-solid fa-list-check"></i> Test Cases & Scenarios</span>
+                    <span className="skill-tag"><i className="fa-solid fa-triangle-exclamation"></i> Severity & Priority Analysis</span>
                   </div>
                 </div>
 
                 <div className="skills-category">
-                  <h4>Automation & Environments</h4>
+                  <h4>Automation Testing & Programming</h4>
                   <div className="skills-tags">
-                    <span className="skill-tag"><i className="fa-brands fa-js"></i> JavaScript / Node.js</span>
-                    <span className="skill-tag"><i className="fa-brands fa-python"></i> Python / SQL</span>
-                    <span className="skill-tag"><i className="fa-solid fa-terminal"></i> CI/CD / GitHub Actions</span>
-                    <span className="skill-tag"><i className="fa-brands fa-git-alt"></i> Git / Version Control</span>
-                    <span className="skill-tag"><i className="fa-brands fa-docker"></i> Docker Containers</span>
+                    <span className="skill-tag"><i className="fa-solid fa-square-check"></i> Selenium WebDriver</span>
+                    <span className="skill-tag"><i className="fa-solid fa-sitemap"></i> WebDriver Architecture</span>
+                    <span className="skill-tag"><i className="fa-solid fa-cubes"></i> Page Object Model (POM)</span>
+                    <span className="skill-tag"><i className="fa-solid fa-crosshairs"></i> Locators & XPath</span>
+                    <span className="skill-tag"><i className="fa-solid fa-flask"></i> TestNG Framework & Synchronization</span>
+                    <span className="skill-tag"><i className="fa-brands fa-java"></i> Core Java (OOPs & Fundamentals)</span>
+                  </div>
+                </div>
+
+                <div className="skills-category">
+                  <h4>Business Analysis & Project Handling</h4>
+                  <div className="skills-tags">
+                    <span className="skill-tag"><i className="fa-solid fa-diagram-project"></i> End-to-End Project Handling</span>
+                    <span className="skill-tag"><i className="fa-solid fa-people-arrows"></i> Client Coordination & Demos</span>
+                    <span className="skill-tag"><i className="fa-solid fa-circle-check"></i> Corrections & Feedback Management (Until Live)</span>
+                    <span className="skill-tag"><i className="fa-solid fa-clipboard-question"></i> Requirements Gathering</span>
+                  </div>
+                </div>
+
+                <div className="skills-category">
+                  <h4>Database, Tools & IDEs</h4>
+                  <div className="skills-tags">
+                    <span className="skill-tag"><i className="fa-solid fa-database"></i> SQL (Joins & Sub-queries)</span>
+                    <span className="skill-tag"><i className="fa-solid fa-table-cells"></i> Database Normalization</span>
+                    <span className="skill-tag"><i className="fa-solid fa-code"></i> DDL, DML, TCL, DCL, DQL Subsets</span>
+                    <span className="skill-tag"><i className="fa-solid fa-server"></i> Oracle SQL*Plus</span>
+                    <span className="skill-tag"><i className="fa-solid fa-laptop-code"></i> Eclipse IDE & EditPlus</span>
+                  </div>
+                </div>
+
+                <div className="skills-category">
+                  <h4>Agile & Delivery</h4>
+                  <div className="skills-tags">
+                    <span className="skill-tag"><i className="fa-solid fa-calendar-check"></i> Sprint Planning & Reviews</span>
+                    <span className="skill-tag"><i className="fa-solid fa-users"></i> Daily Scrum/Standup Meetings</span>
+                    <span className="skill-tag"><i className="fa-solid fa-chart-line"></i> Sprint Retrospectives</span>
                   </div>
                 </div>
               </div>
@@ -103,24 +122,15 @@ export default function About() {
                 <div className="timeline">
                   <div className="timeline-item">
                     <div className="timeline-dot"></div>
-                    <span className="timeline-date">2024 - Present</span>
-                    <h4 className="timeline-title">Lead QA & Business Systems Analyst</h4>
-                    <span className="timeline-company">Centric QA Solutions</span>
-                    <p className="timeline-desc">Gathered system requirements and managed end-to-end test pipelines. Designed custom automated regression tests in Playwright, decreasing manual validation efforts by 70%.</p>
-                  </div>
-                  <div className="timeline-item">
-                    <div className="timeline-dot"></div>
-                    <span className="timeline-date">2022 - 2024</span>
-                    <h4 className="timeline-title">Quality Analyst & Systems Evaluator</h4>
-                    <span className="timeline-company">Apex Enterprise Lab</span>
-                    <p className="timeline-desc">Validated microservices APIs using Postman automation. Documented software requirements specifications (SRS) and process workflow maps for enterprise upgrades.</p>
-                  </div>
-                  <div className="timeline-item">
-                    <div className="timeline-dot"></div>
-                    <span className="timeline-date">2020 - 2022</span>
-                    <h4 className="timeline-title">Associate Business Analyst Intern</h4>
-                    <span className="timeline-company">Vanguard Tech</span>
-                    <p className="timeline-desc">Conducted user interviews, gathered product feedback, translated requirements into user stories in Jira, and performed User Acceptance Testing (UAT).</p>
+                    <span className="timeline-date">May 2025 - Present</span>
+                    <h4 className="timeline-title">Quality Analyst (Software Testing)</h4>
+                    <span className="timeline-company">Ocean Software Pvt. Ltd.</span>
+                    <p className="timeline-desc">
+                      Ensuring software quality through test planning, execution, defect reporting, and validation of business requirements. Conducted functionality and UI testing of web and mobile applications.
+                    </p>
+                    <p className="timeline-desc" style={{ marginTop: '8px' }}>
+                      Managed end-to-end projects and client coordination, including demonstrating project features, gathering feedback, and coordinating corrections and updates until final approval and go-live.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -73,7 +73,7 @@ export default function Contact() {
           <div className="contact-info-card">
             <h3>Let's collaborate on your next big concept.</h3>
             <p className="contact-invite-text">
-              I am currently open to projects, freelance roles, and full-stack positions. Drop me a line, and let's turn your vision into high-performing reality.
+              I am currently open to Quality Analyst, Business Analyst, and project-based opportunities. Whether you need assistance with requirement analysis, process improvement, test planning, or quality assurance, feel free to reach out. Let's work together to deliver reliable, efficient, and high-quality solutions.
             </p>
 
             <div className="contact-methods">
@@ -83,7 +83,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-method-detail">
                   <span>Send an Email</span>
-                  <a href="mailto:dhakshan@example.com">dhakshan@example.com</a>
+                  <a href="mailto:dhakshan@example.com">dhakshansudhakar007@example.com</a>
                 </div>
               </div>
 

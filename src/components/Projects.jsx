@@ -5,9 +5,9 @@ export default function Projects({ onSelectProject }) {
 
   const filterTabs = [
     { id: 'all', label: 'All' },
-    { id: 'qa', label: 'QA Automation' },
+    { id: 'qa', label: 'Quality Analysis' },
     { id: 'ba', label: 'Business Analysis' },
-    { id: 'api', label: 'API Testing' },
+    { id: 'api', label: 'Project Handling' },
   ];
 
   const projects = [
