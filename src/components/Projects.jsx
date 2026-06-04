@@ -12,9 +12,31 @@ export default function Projects({ onSelectProject }) {
 
   const projects = [
     {
+      id: 'chit-funds-ecosystem',
+      categories: ['qa', 'api'],
+      categoryLabel: 'QA & Project Handling',
+      title: 'Chit Funds (Auction & Fixed) Portal',
+      excerpt: 'Comprehensive end-to-end quality assurance and client coordination for a financial chit fund ecosystem, testing the Admin Panel, customer Website, and Android/iOS Mobile Apps.',
+      image: '/assets/project_chitfunds.png',
+      tags: ['Admin Panel', 'Web & Mobile Testing', 'Financial Flow Testing', 'Client Demos'],
+      codeLink: '#',
+      type: 'live'
+    },
+    {
+      id: 'ramesh-traders-ecommerce',
+      category: 'qa',
+      categoryLabel: 'Quality Analysis',
+      title: 'Ramesh Traders Grocery Ecosystem',
+      excerpt: 'Comprehensive quality assurance and functional testing for a multi-platform supermarket grocery e-commerce ecosystem, including the Customer Web Portal, Wholesaler App, and Delivery App.',
+      image: '/assets/project_ramesh.png',
+      tags: ['Admin Panel', 'Web & Mobile Testing', 'Functional Testing', 'UI Testing'],
+      codeLink: '#',
+      type: 'live'
+    },
+    {
       id: 'qa-automation-framework',
       category: 'qa',
-      categoryLabel: 'QA Automation',
+      categoryLabel: 'Quality Analysis',
       title: 'Enterprise QA Automation Suite',
       excerpt: 'A scalable end-to-end regression and system test suite built in Playwright, executing parallel tests across multiple browser layers with HTML reports generation.',
       image: '/assets/project_dashboard.png',
@@ -36,7 +58,7 @@ export default function Projects({ onSelectProject }) {
     {
       id: 'api-performance-suite',
       category: 'api',
-      categoryLabel: 'API Testing',
+      categoryLabel: 'Project Handling',
       title: 'Payment Gateway API Quality Suite',
       excerpt: 'A custom automated integration and performance testing suite built in Postman and Newman, verifying API contract compliance and SLA limits.',
       image: '/assets/project_finance.png',
@@ -48,7 +70,7 @@ export default function Projects({ onSelectProject }) {
 
   const filteredProjects = filter === 'all' 
     ? projects 
-    : projects.filter(p => p.category === filter);
+    : projects.filter(p => p.category === filter || (p.categories && p.categories.includes(filter)));
 
   return (
     <section id="projects" className="projects-section">

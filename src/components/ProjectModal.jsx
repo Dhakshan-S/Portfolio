@@ -1,6 +1,36 @@
 import React, { useEffect } from 'react';
 
 const projectData = {
+  'chit-funds-ecosystem': {
+    title: 'Chit Funds (Auction & Fixed) Portal',
+    category: 'QA & Project Handling',
+    tags: ['Web & Mobile Testing', 'Admin Panel', 'Auction & Fixed Chit Funds', 'Financial Flows', 'Client Coordination'],
+    image: '/assets/project_chitfunds.png',
+    description: 'End-to-end quality assurance and client coordination for a financial chit fund platform supporting both Auction-based and Fixed-interest chit models. Ensured transaction accuracy, customer trust, and seamless backend tracking across web and mobile.',
+    features: [
+      'Tested the Admin Panel for manager approval cycles, dividend calculations, and member allocations',
+      'Validated fixed and auction chit subscription flows on the customer Web Portal',
+      'Conducted cross-platform testing of Android & iOS apps, checking push notifications, bid submissions, and payment receipts',
+      'Led feature demonstrations for client stakeholders, gathered change requests, and verified fixes through to release'
+    ],
+    liveLink: '#',
+    codeLink: '#'
+  },
+  'ramesh-traders-ecommerce': {
+    title: 'Ramesh Traders Grocery Ecosystem',
+    category: 'Quality Analysis',
+    tags: ['Web & Mobile Testing', 'Admin Panel', 'Wholesaler & Salesman App', 'Delivery App', 'End-to-End QA'],
+    image: '/assets/project_ramesh.png',
+    description: 'A complete multi-platform e-commerce ecosystem for a supermarket grocery business. Led the end-to-end testing process, client demo coordination, and quality assurance across the entire product suite to guarantee smooth operational flows.',
+    features: [
+      'Tested the Web Customer Portal and Admin Panel for product inventory and order management',
+      'Validated functional flows in the Wholesaler & Salesman mobile application for ordering and dispatching',
+      'Conducted UI and real-time tracking validation for the Delivery Agent mobile application',
+      'Interacted directly with clients to demonstrate new builds, gather feedback, and coordinate live releases'
+    ],
+    liveLink: '#',
+    codeLink: '#'
+  },
   'qa-automation-framework': {
     title: 'Enterprise QA Automation Suite',
     category: 'QA Automation',
