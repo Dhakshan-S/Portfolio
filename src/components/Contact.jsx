@@ -61,6 +61,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="contact-section">
+      <div className="ambient-glow-sphere glow-1"></div>
+      <div className="ambient-glow-sphere glow-2"></div>
       <div className="container">
         <div className="section-header">
           <span className="section-tagline">Get In Touch</span>

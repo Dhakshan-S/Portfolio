@@ -36,7 +36,7 @@ export default function CanvasBackground({ theme }) {
           let diffX = this.x - mouse.x;
           let diffY = this.y - mouse.y;
           let distance = Math.sqrt(diffX * diffX + diffY * diffY);
-          
+
           if (distance < mouse.radius) {
             let force = (mouse.radius - distance) / mouse.radius;
             let angle = Math.atan2(diffY, diffX);
@@ -80,9 +80,9 @@ export default function CanvasBackground({ theme }) {
       particles = [];
       const density = Math.floor((canvas.width * canvas.height) / 25000);
       const particleCount = Math.min(density, 60);
-      
-      const particleColor = theme === 'dark' 
-        ? 'rgba(99, 102, 241, 0.25)' 
+
+      const particleColor = theme === 'dark'
+        ? 'rgba(99, 102, 241, 0.25)'
         : 'rgba(79, 70, 229, 0.12)';
 
       for (let i = 0; i < particleCount; i++) {
@@ -122,6 +122,21 @@ export default function CanvasBackground({ theme }) {
     let frameId;
     function animateCanvas() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Draw mouse spotlight glow
+      if (mouse.x !== null && mouse.y !== null) {
+        ctx.save();
+        let glowGrad = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, mouse.radius * 1.5);
+        const glowColor = theme === 'dark' ? 'rgba(99, 102, 241, 0.08)' : 'rgba(79, 70, 229, 0.04)';
+        glowGrad.addColorStop(0, glowColor);
+        glowGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+        ctx.fillStyle = glowGrad;
+        ctx.beginPath();
+        ctx.arc(mouse.x, mouse.y, mouse.radius * 1.5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+
       for (let i = 0; i < particles.length; i++) {
         particles[i].update();
       }

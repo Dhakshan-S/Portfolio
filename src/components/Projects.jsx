@@ -34,6 +34,39 @@ export default function Projects({ onSelectProject }) {
       type: 'live'
     },
     {
+      id: 'cni-business-forum',
+      category: 'qa',
+      categoryLabel: 'Quality Analysis',
+      title: 'CNI Business Forum',
+      excerpt: 'End-to-end quality analysis and functional testing for the CNI Business Forum platform, encompassing the Web Portal, Admin Panel, and Android/iOS Mobile Applications.',
+      image: '/assets/project_cni.png',
+      tags: ['Website Testing', 'Admin Panel', 'Mobile App Testing', 'Regression Testing'],
+      codeLink: '#',
+      type: 'live'
+    },
+    {
+      id: 'star-business-forum',
+      category: 'qa',
+      categoryLabel: 'Quality Analysis',
+      title: 'Star Business Forum',
+      excerpt: 'Comprehensive quality assurance and UI/UX validation for the Star Business Forum ecosystem, certifying the Customer Website, Management Admin Panel, and Mobile Apps.',
+      image: '/assets/project_star.png',
+      tags: ['Web & Mobile Testing', 'Admin Panel', 'UI/UX Validation', 'Compatibility Testing'],
+      codeLink: '#',
+      type: 'live'
+    },
+    {
+      id: 'lavenjal-water-ecommerce',
+      category: 'qa',
+      categoryLabel: 'Quality Analysis',
+      title: 'Lavenjal E-Commerce Ecosystem',
+      excerpt: 'Quality assurance and business flow verification for the Lavenjal water can selling e-commerce platform, validating the Mobile Ordering App and Central Admin Dashboard.',
+      image: '/assets/project_lavenjal.png',
+      tags: ['Mobile E-commerce', 'Admin Dashboard', 'Payment flow', 'Order Tracking'],
+      codeLink: '#',
+      type: 'live'
+    },
+    {
       id: 'qa-automation-framework',
       category: 'qa',
       categoryLabel: 'Quality Analysis',
@@ -74,6 +107,8 @@ export default function Projects({ onSelectProject }) {
 
   return (
     <section id="projects" className="projects-section">
+      <div className="ambient-glow-sphere glow-1"></div>
+      <div className="ambient-glow-sphere glow-2"></div>
       <div className="container">
         <div className="section-header">
           <span className="section-tagline">My Works</span>

@@ -62,7 +62,7 @@ export default function Navbar({ theme, toggleTheme }) {
       <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
           <a href="#home" className="logo" onClick={() => setMobileMenuOpen(false)}>
-            {/* <span className="logo-accent">&lt;</span>Dhakshan<span className="logo-accent"> /&gt;</span> */}
+            <span className="logo-accent">&lt;</span>Dhakshan<span className="logo-accent"> /&gt;</span>
           </a>
           
           <nav className={`navbar ${mobileMenuOpen ? 'open' : ''}`}>

@@ -11,6 +11,8 @@ export default function About() {
 
   return (
     <section id="about" className="about-section">
+      <div className="ambient-glow-sphere glow-1"></div>
+      <div className="ambient-glow-sphere glow-2"></div>
       <div className="container">
         <div className="section-header">
           <span className="section-tagline">My Story</span>

@@ -44,6 +44,10 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero-section">
+      {/* Background Ambient Glow Spheres */}
+      <div className="ambient-glow-sphere glow-1"></div>
+      <div className="ambient-glow-sphere glow-2"></div>
+
       <div className="container hero-container">
         <div className="hero-content">
           <div className="greeting-badge">

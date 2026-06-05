@@ -31,6 +31,51 @@ const projectData = {
     liveLink: '#',
     codeLink: '#'
   },
+  'cni-business-forum': {
+    title: 'CNI Business Forum',
+    category: 'Quality Analysis',
+    tags: ['Website Testing', 'Admin Panel', 'Mobile App Testing', 'Regression Testing', 'Cross-Browser Compatibility'],
+    image: '/assets/project_cni.png',
+    description: 'Conducted rigorous functional, regression, and cross-platform testing for the CNI Business Forum ecosystem. Ensured flawless performance across the member website, admin control center, and native Android & iOS mobile applications.',
+    features: [
+      'Validated member registrations, business matchmaking algorithms, and event booking modules on the Web Portal',
+      'Tested Admin Panel for member verification workflows, event management, and content moderation tools',
+      'Conducted exhaustive testing on Android and iOS mobile apps, verifying offline access, push notifications, and profile updates',
+      'Created detailed bug reports, collaborated with developers for hotfixes, and conducted regression runs prior to release'
+    ],
+    liveLink: '#',
+    codeLink: '#'
+  },
+  'star-business-forum': {
+    title: 'Star Business Forum',
+    category: 'Quality Analysis',
+    tags: ['Web & Mobile Testing', 'Admin Panel', 'UI/UX Validation', 'Compatibility Testing', 'Performance Check'],
+    image: '/assets/project_star.png',
+    description: 'Managed complete Quality Assurance cycles for the Star Business Forum, verifying consistent UX across Web, Admin Panel, and Mobile clients. Focused heavily on high-concurrency event registration flows and payment integrations.',
+    features: [
+      'Executed responsive design and UI testing across multiple browser sizes and screen resolutions',
+      'Verified admin metrics dashboards, notification dispatchers, and privilege authorization settings',
+      'Conducted localization and compatibility checks on mobile apps to guarantee standard experiences on older operating systems',
+      'Created test scenarios for membership subscriptions, forum chat rooms, and feedback submissions'
+    ],
+    liveLink: '#',
+    codeLink: '#'
+  },
+  'lavenjal-water-ecommerce': {
+    title: 'Lavenjal E-Commerce Ecosystem',
+    category: 'Quality Analysis',
+    tags: ['Mobile E-commerce', 'Admin Dashboard', 'Payment flow', 'Order Tracking', 'Functional Testing'],
+    image: '/assets/project_lavenjal.png',
+    description: 'Led end-to-end testing for Lavenjal, a specialized on-demand water can delivery e-commerce application. Certified secure transaction checkouts, real-time map tracking for deliveries, and quick order handling in the Admin Dashboard.',
+    features: [
+      'Validated cart management, subscription ordering options, and multi-gateway payment flows in the Customer App',
+      'Tested the Admin Panel for dispatcher assignment algorithms, stock inventory alerts, and billing invoice generation',
+      'Conducted latency and network transition testing for real-time driver navigation and order tracking status',
+      'Performed smoke, usability, and boundaries/boundary-value testing on promo code and discount rules'
+    ],
+    liveLink: '#',
+    codeLink: '#'
+  },
   'qa-automation-framework': {
     title: 'Enterprise QA Automation Suite',
     category: 'QA Automation',
