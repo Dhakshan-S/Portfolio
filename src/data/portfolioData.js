@@ -5,13 +5,13 @@ export const personalDetails = {
   location: "Chennai, Tamil Nadu",
   email: "dhakshansudhakar007@gmail.com",
   phone: "+91 8610188861",
-  linkedin: "https://linkedin.com/in/dhakshan-s-660754286",
+  linkedin: "https://linkedin.com/in/dhakshan-s",
   github: "https://github.com/Dhakshan-S",
   portfolioUrl: "https://dhakshan.vercel.app/",
-  experienceYears: "1+",
+  experienceYears: "1.5",
   projectsCount: "25+",
   ownedProjects: "5",
-  aboutBio: "Dhakshan S is a dedicated Software Tester & QA Analyst with 1+ year of experience across Manual Testing, API Testing, Functional Testing and Business Analysis. Handles end-to-end testing for web and mobile applications — requirement analysis, client communication, and defect management. Based in Chennai, Tamil Nadu."
+  aboutBio: "Quality Analyst with 1.5 year of experience in Manual Testing, API Testing, Functional Testing, and Business Analysis. Experienced in handling end-to-end testing activities for web and mobile applications, requirement analysis, client communication, and defect management. Seeking a challenging position to leverage my testing skills and contribute to delivering high-quality software solutions."
 };
 
 export const skillCategories = [

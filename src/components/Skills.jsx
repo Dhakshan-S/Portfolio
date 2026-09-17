@@ -98,6 +98,35 @@ function ToolIcon({ type, className = "w-3.5 h-3.5" }) {
           <path d="M8 15.5s1 1.5 4 1.5 4-1.5 4-1.5M9 13s1 1 3 1 3-1 3-1M11 6c0 1.5-1.5 2.5-1.5 4M13.5 5.5c0 1.5-1.5 2.5-1.5 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
+    case 'mongodb':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <path
+            d="M17.193 9.555c-1.264-4.88-4.407-7.56-4.707-7.817a.78.78 0 0 0-.972 0c-.3.257-3.443 2.937-4.707 7.817-1.408 5.443-.1 10.36 4.316 12.875a.782.782 0 0 0 .766 0c4.417-2.515 5.724-7.432 4.316-12.875z"
+            fill="#13AA52"
+          />
+          <path
+            d="M12 21.328C8.544 19.344 7.42 15.342 8.625 10.68c1.025-3.96 3.197-6.326 3.375-6.516v17.164z"
+            fill="#00ED64"
+          />
+          <path
+            d="M12 3.82c.178.19 2.35 2.556 3.375 6.516 1.205 4.662.081 8.664-3.375 10.992V3.82z"
+            fill="#00684A"
+          />
+          <path
+            d="M12.3 21.5c-.1.5-.2 1-.3 1.3a.25.25 0 0 1-.25.18.25.25 0 0 1-.25-.18c-.1-.3-.2-.8-.3-1.3z"
+            fill="#A6D189"
+          />
+        </svg>
+      );
+    case 'cpu':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <rect x="5" y="5" width="14" height="14" rx="3" stroke="#14B8A6" strokeWidth="2" />
+          <rect x="8.5" y="8.5" width="7" height="7" rx="1.5" fill="#14B8A6" />
+          <path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" stroke="#14B8A6" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      );
     default:
       return null;
   }
@@ -121,10 +150,9 @@ const skillCards = [
       cardBg: 'from-amber-950/25 to-slate-900/95',
     },
     subtitles:
-      'Joins, Sub Query, Normalization, DDL/DML, TCL, DCL, DQL.',
+      'Data Modeling, CRUD Operations, Aggregation, Query Optimization.',
     tools: [
-      { name: 'Oracle SQL', icon: 'oracle' },
-      { name: 'PostgreSQL', icon: 'postgresql' },
+      { name: 'MongoDB', icon: 'mongodb' },
     ],
   },
   {
@@ -225,7 +253,7 @@ const skillCards = [
   {
     id: 'agile',
     title: 'Agile',
-    level: 'Intermediate',
+    level: 'Advanced',
     levelBadge: 'bg-[#C084FC] text-slate-950 font-bold',
     icon: RotateCw,
     theme: {
@@ -271,9 +299,7 @@ const allDockTools = [
   { name: 'Selenium', icon: 'selenium' },
   { name: 'TestNG', icon: 'testng' },
   { name: 'XPath', icon: 'xpath' },
-  { name: 'Oracle SQL', icon: 'oracle' },
-  { name: 'PostgreSQL', icon: 'postgresql' },
-  { name: 'Java', icon: 'java' },
+  { name: 'MongoDB', icon: 'mongodb' },
 ];
 
 export default function Skills() {
