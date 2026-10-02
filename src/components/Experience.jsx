@@ -32,7 +32,7 @@ export default function Experience({ onOpenTestRunner }) {
             Professional <span className="text-gradient">Experience</span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            Hands-on Quality Analyst & Business Analyst handling multi-project QA deliverables and client demonstrations.
+            Hands-on experience in Software Testing (QA) & Business Analyst handling deliverables and client demonstrations.
           </p>
         </div>
 

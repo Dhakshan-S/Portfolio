@@ -252,7 +252,7 @@ export default function About() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-3 text-xs sm:text-sm font-mono tracking-wider sm:tracking-widest text-center">
             <div className="inline-flex items-center gap-2 text-cyan-400 uppercase font-semibold">
               <Terminal className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-400 shrink-0" />
-              <span>Quality Analyst &amp; Business Analyst</span>
+              <span>Software Testing (QA) &amp; Business Analyst</span>
             </div>
             <span className="text-slate-600 hidden sm:inline">•</span>
             <div className="inline-flex items-center gap-1.5 text-slate-400 uppercase font-medium text-[11px] sm:text-xs">
