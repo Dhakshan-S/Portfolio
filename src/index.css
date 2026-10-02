@@ -70,12 +70,14 @@
 .text-gradient {
   background: linear-gradient(135deg, #14B8A6 0%, #06B6D4 50%, #38BDF8 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-purple {
   background: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
