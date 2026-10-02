@@ -11,7 +11,7 @@ export const personalDetails = {
   experienceYears: "1.5",
   projectsCount: "25+",
   ownedProjects: "5",
-  aboutBio: "Quality Analyst with 1.5 year of experience in Manual Testing, API Testing, Functional Testing, and Business Analysis. Experienced in handling end-to-end testing activities for web and mobile applications, requirement analysis, client communication, and defect management. Seeking a challenging position to leverage my testing skills and contribute to delivering high-quality software solutions."
+  aboutBio: "Quality Analyst with 1.5 years of experience in Manual Testing, API Testing, Functional Testing, and Business Analysis. Experienced in handling end-to-end testing activities for web and mobile applications, requirement analysis, client communication, and defect management. Seeking a challenging position to leverage my testing skills and contribute to delivering high-quality software solutions."
 };
 
 export const skillCategories = [
@@ -51,8 +51,8 @@ export const skillCategories = [
     icon: "Terminal",
     color: "from-sky-500 to-indigo-500",
     skills: [
-      { name: "Playwright", desc: "AI-assisted prompt-based test scripting", level: "Intermediate", passTag: "[RUNNING]" },
-      { name: "Selenium WebDriver", desc: "Core locator strategies & browser automation", level: "Basics", passTag: "[PASS]" },
+      { name: "Playwright", desc: "AI-assisted prompt-based testing", level: "Intermediate", passTag: "[RUNNING]" },
+      { name: "Selenium WebDriver", desc: "Core locator strategies & basic knowledge", level: "Basics", passTag: "[PASS]" },
       { name: "TestNG", desc: "Annotations, assertion & suite configuration", level: "Basics", passTag: "[PASS]" },
       { name: "XPath & Locators", desc: "Dynamic relative & absolute element locating", level: "Advanced", passTag: "[PASS]" },
       { name: "Page Object Model", desc: "POM design pattern architecture", level: "Intermediate", passTag: "[PASS]" }
@@ -90,10 +90,10 @@ export const skillCategories = [
     icon: "Cpu",
     color: "from-emerald-500 to-cyan-500",
     skills: [
-      { name: "AI Test Case Generation", desc: "Accelerating test suite creation with LLM prompts", level: "Advanced", passTag: "[AI-POWERED]" },
-      { name: "Prompt Automation", desc: "AI-guided test script writing & maintenance", level: "Advanced", passTag: "[PASS]" },
-      { name: "Test Scenario Generation", desc: "Boundary value & edge case synthesis via AI", level: "Advanced", passTag: "[PASS]" },
-      { name: "Core Java", desc: "OOP principles, collections & string manipulation", level: "Fundamentals", passTag: "[PASS]" }
+      { name: "Antigravity & Claude", desc: "AI-assisted test automation & prompt generation", level: "Expert", passTag: "[AI-POWERED]" },
+      { name: "Figma & Stitch", desc: "UI/UX validation, design-to-test & wireframing", level: "Advanced", passTag: "[PASS]" },
+      { name: "Lovable & Banani", desc: "Full-stack AI app testing & QA workflows", level: "Advanced", passTag: "[PASS]" },
+      { name: "AI Test Scenario Generation", desc: "Boundary value & edge case synthesis via AI", level: "Advanced", passTag: "[PASS]" }
     ]
   }
 ];
@@ -101,20 +101,20 @@ export const skillCategories = [
 export const experienceData = [
   {
     company: "Ocean Softwares Pvt Ltd",
-    role: "Quality Analyst & Business Analyst",
+    role: "Software Testing (QA) & Business Analyst",
     duration: "May 2025 – Present",
     location: "Chennai, Tamil Nadu",
     type: "Full-Time",
     badge: "25+ Projects Delivered",
     highlights: [
-      "Independently handled QA and testing across 25+ web & mobile application projects.",
-      "Owned 5 end-to-end projects from initial requirement gathering through coordination, testing, and live client demos.",
-      "Performed comprehensive Manual, Functional, UI, Integration, Regression & API testing (using Postman).",
-      "Designed and executed detailed positive and negative test cases directly mapped to business requirements.",
-      "Tracked, prioritized, and managed defects via structured Excel-based bug reporting, working closely with dev teams.",
-      "Acted as the key client–developer liaison for requirement clarification and scope refinement.",
-      "Rigorously verified bug fixes through retesting before staging & production deployments.",
-      "Active participant across the full SDLC: requirement analysis → test planning → execution → QA sign-off."
+      "Independently handled testing activities across 25+ projects, covering web and mobile applications.",
+      "Managed 5 end-to-end projects independently, including requirement gathering, project coordination, testing, and client demonstrations.",
+      "Executed Manual, Functional, UI, Integration, Regression, and API testing using Postman across 25+ projects, identifying release-blocking defects and validating fixes before deployment.",
+      "Designed and executed positive and negative test cases to validate business requirements and application functionality.",
+      "Identified, documented and tracked defects using Excel-based reports, collaborating closely with developers to resolve critical and high-priority issues within project timelines.",
+      "Worked closely with clients to gather requirements and acted as a liaison between clients and the development team.",
+      "Verified bug fixes, performed retesting, and ensured quality releases before deployment.",
+      "Participated in requirement analysis, test planning, test execution, and quality assurance activities throughout the Software Development Life Cycle (SDLC)."
     ],
     techTags: ["Manual Testing", "API Testing (Postman)", "Regression", "SDLC/STLC", "Requirements Analysis", "Bug Reporting", "Client Demos"]
   }

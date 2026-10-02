@@ -63,11 +63,11 @@ export default function ResumeModal({ isOpen, onClose }) {
   ];
 
   const experiencePoints = [
-    "Independently handled testing activities across 25+ projects, covering web, and mobile applications.",
+    "Independently handled testing activities across 25+ projects, covering web and mobile applications.",
     "Managed 5 end-to-end projects independently, including requirement gathering, project coordination, testing, and client demonstrations.",
-    "Conducted Manual, Functional, UI, Integration, Regression, and API Testing using Postman, contributing to high-quality software releases.",
+    "Executed Manual, Functional, UI, Integration, Regression, and API testing using Postman across 25+ projects, identifying release-blocking defects and validating fixes before deployment.",
     "Designed and executed positive and negative test cases to validate business requirements and application functionality.",
-    "Identified, documented, and tracked defects using Excel-based bug tracking reports and collaborated with developers to ensure timely issue resolution.",
+    "Identified, documented and tracked defects using Excel-based reports, collaborating closely with developers to resolve critical and high-priority issues within project timelines.",
     "Worked closely with clients to gather requirements and acted as a liaison between clients and the development team.",
     "Verified bug fixes, performed retesting, and ensured quality releases before deployment.",
     "Participated in requirement analysis, test planning, test execution, and quality assurance activities throughout the Software Development Life Cycle (SDLC)."
@@ -212,7 +212,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                   Career Objective
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                  Quality Analyst with 1.5 year of experience in Manual Testing, API Testing, Functional Testing, and
+                  Quality Analyst with 1.5 years of experience in Manual Testing, API Testing, Functional Testing, and
                   Business Analysis. Experienced in handling end-to-end testing activities for web and mobile applications,
                   requirement analysis, client communication, and defect management. Seeking a challenging position to
                   leverage my testing skills and contribute to delivering high-quality software solutions.
@@ -247,7 +247,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                 </h2>
                 <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 space-y-3">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between font-bold text-white text-xs sm:text-sm gap-1">
-                    <span className="text-teal-300">QUALITY ANALYST & BUSINESS ANALYST</span>
+                    <span className="text-teal-300">SOFTWARE TESTING (QA) & BUSINESS ANALYST</span>
                     <span className="font-mono text-slate-400 text-xs">Ocean Softwares Pvt Ltd | May 2025 – Present</span>
                   </div>
                   <ul className="space-y-2 text-xs text-slate-300">

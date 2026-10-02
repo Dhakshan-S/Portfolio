@@ -127,6 +127,61 @@ function ToolIcon({ type, className = "w-3.5 h-3.5" }) {
           <path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" stroke="#14B8A6" strokeWidth="2" strokeLinecap="round" />
         </svg>
       );
+    case 'antigravity':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="9.5" fill="#0A0F1D" stroke="#38BDF8" strokeWidth="1.2" />
+          <circle cx="12" cy="12" r="3.2" fill="#38BDF8" />
+          <path d="M12 5.5v3M12 15.5v3M5.5 12h3M15.5 12h3" stroke="#818CF8" strokeWidth="1.6" strokeLinecap="round" />
+          <path d="M7.4 7.4l2.1 2.1M14.5 14.5l2.1 2.1" stroke="#C084FC" strokeWidth="1.4" strokeLinecap="round" />
+        </svg>
+      );
+    case 'claude':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <path
+            d="M13.5 3.5a1.2 1.2 0 0 0-2.3 0L10 8.8a1.2 1.2 0 0 1-.8.8L4 10.8a1.2 1.2 0 0 0 0 2.3l5.2 1.2a1.2 1.2 0 0 1 .8.8l1.2 5.2a1.2 1.2 0 0 0 2.3 0l1.2-5.2a1.2 1.2 0 0 1 .8-.8l5.2-1.2a1.2 1.2 0 0 0 0-2.3l-5.2-1.2a1.2 1.2 0 0 1-.8-.8L13.5 3.5z"
+            fill="#D97757"
+          />
+        </svg>
+      );
+    case 'figma':
+      return (
+        <svg className={className} viewBox="0 0 38 57" fill="none">
+          <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE" />
+          <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83" />
+          <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262" />
+          <path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E" />
+          <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF" />
+        </svg>
+      );
+    case 'lovable':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <path
+            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            fill="#FF3366"
+          />
+        </svg>
+      );
+    case 'stitch':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <rect width="24" height="24" rx="5" fill="#4F46E5" />
+          <path d="M7 17L17 7M7 12L12 7M12 17L17 12" stroke="white" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      );
+    case 'banani':
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="none">
+          <rect width="24" height="24" rx="5" fill="#FEF08A" />
+          <path
+            d="M6 16c2.5 2.5 7 3 11 .5 1.5-.9 2.5-2.2 2.5-3.5 0-.5-.5-.7-.8-.4-2 1.5-4.8 2-7.5 1.2-2-.6-3.6-1.6-4.5-3-.3-.4-.9-.2-.9.2 0 2.2 1.2 5 2.2 6.5z"
+            fill="#EAB308"
+          />
+          <path d="M17 9.5c.8-.8 1.5-1.8 1.5-2.2-.4 0-1.4.5-2.2 1.2" stroke="#A16207" strokeWidth="1.2" strokeLinecap="round" />
+        </svg>
+      );
     default:
       return null;
   }
@@ -150,9 +205,9 @@ const skillCards = [
       cardBg: 'from-amber-950/25 to-slate-900/95',
     },
     subtitles:
-      'Data Modeling, CRUD Operations, Aggregation, Query Optimization.',
+      'SQL (Joins, Sub Query, Normalization, DDL, DML, TCL, DCL, DQL).',
     tools: [
-      { name: 'MongoDB', icon: 'mongodb' },
+      { name: 'MySQL', icon: 'mysql' },
     ],
   },
   {
@@ -170,7 +225,12 @@ const skillCards = [
     subtitles:
       'AI-assisted Test Case Generation, Prompt-based Test Automation, Test Scenario Generation.',
     tools: [
-      { name: 'AI Prompts', icon: 'cpu' },
+      { name: 'Antigravity', icon: 'antigravity' },
+      { name: 'Claude', icon: 'claude' },
+      { name: 'Figma', icon: 'figma' },
+      { name: 'Lovable', icon: 'lovable' },
+      { name: 'Stitch', icon: 'stitch' },
+      { name: 'Banani', icon: 'banani' },
     ],
   },
   {
@@ -186,7 +246,7 @@ const skillCards = [
       cardBg: 'from-purple-950/25 to-slate-900/95',
     },
     subtitles:
-      'Playwright (AI-assisted), Selenium WebDriver, TestNG, XPath, Page Object Model, Core Java (Fundamentals).',
+      'Playwright (AI-assisted prompt-based testing), Selenium WebDriver (Basic Knowledge), TestNG, XPath, Page Object Model.',
     tools: [
       { name: 'Playwright', icon: 'playwright' },
       { name: 'Selenium', icon: 'selenium' },
@@ -216,7 +276,7 @@ const skillCards = [
   {
     id: 'api-testing',
     title: 'API Testing',
-    level: 'Intermediate',
+    level: 'Advanced',
     levelBadge: 'bg-[#38BDF8] text-slate-950 font-bold',
     icon: Globe,
     theme: {
@@ -263,7 +323,7 @@ const skillCards = [
       cardBg: 'from-fuchsia-950/25 to-slate-900/95',
     },
     subtitles:
-      'Sprint Planning, Daily Scrum, Sprint Review, Retrospective.',
+      'Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective.',
     tools: [
       { name: 'JIRA', icon: 'jira' },
     ],
@@ -281,7 +341,7 @@ const skillCards = [
       cardBg: 'from-rose-950/25 to-slate-900/95',
     },
     subtitles:
-      'Bug Reporting, Bug Tracking using Excel, Defect Analysis, Retesting.',
+      'Bug Reporting and Tracking using Jira & Excel, Defect Analysis, Retesting.',
     tools: [
       { name: 'JIRA', icon: 'jira' },
       { name: 'Excel', icon: 'excel' },
@@ -299,7 +359,13 @@ const allDockTools = [
   { name: 'Selenium', icon: 'selenium' },
   { name: 'TestNG', icon: 'testng' },
   { name: 'XPath', icon: 'xpath' },
-  { name: 'MongoDB', icon: 'mongodb' },
+  { name: 'MySQL', icon: 'mysql' },
+  { name: 'Antigravity', icon: 'antigravity' },
+  { name: 'Claude', icon: 'claude' },
+  { name: 'Figma', icon: 'figma' },
+  { name: 'Lovable', icon: 'lovable' },
+  { name: 'Stitch', icon: 'stitch' },
+  { name: 'Banani', icon: 'banani' },
 ];
 
 export default function Skills() {
@@ -587,7 +653,7 @@ export default function Skills() {
                       setActiveIndex(idx);
                     }}
                     style={{ width: `${cardWidth}px` }}
-                    className={`shrink-0 rounded-3xl p-4 sm:p-5 transition-all duration-500 relative select-none flex flex-col justify-between min-h-[365px] sm:min-h-[375px] ${isDragging ? 'cursor-grabbing' : 'cursor-grab'
+                    className={`shrink-0 rounded-3xl p-4 sm:p-5 transition-all duration-500 relative select-none flex flex-col justify-between min-h-[380px] sm:min-h-[390px] ${isDragging ? 'cursor-grabbing' : 'cursor-grab'
                       } ${isActive
                         ? `bg-gradient-to-b ${card.theme.cardBg} border-2 ${card.theme.activeBorder} ${card.theme.activeGlow} scale-100 sm:scale-[1.03] z-20 opacity-100 shadow-2xl`
                         : `bg-slate-900/85 border border-slate-700/70 hover:border-slate-600 backdrop-blur-md scale-[0.91] sm:scale-95 opacity-70 hover:opacity-90 z-10 shadow-lg shadow-black/50 cursor-pointer`
@@ -635,7 +701,7 @@ export default function Skills() {
                     </div>
 
                     {/* BOTTOM SECTION: 5. Tools Container (Uniform height & structure across all 8 slides) */}
-                    <div className="mt-auto pt-2 border-t border-slate-800/80 bg-slate-950/50 rounded-2xl px-2.5 py-2 min-h-[76px] flex flex-col justify-center">
+                    <div className="mt-auto pt-2 border-t border-slate-800/80 bg-slate-950/50 rounded-2xl px-2.5 py-2 min-h-[84px] flex flex-col justify-center">
                       <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400 font-bold block mb-1 text-left">
                         Tools
                       </span>
